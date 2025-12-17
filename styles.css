@@ -1,8 +1,42 @@
-/*
+.mermaid-diagram {
+	display: flex;
+	justify-content: center;
+	margin: 1em 0;
+	padding: 1em;
+	background-color: var(--background-secondary);
+	border-radius: 8px;
+	overflow-x: auto;
+}
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+.mermaid-diagram svg {
+	max-width: 100%;
+	height: auto;
+}
 
-If your plugin does not need CSS, delete this file.
+.mermaid-error {
+	padding: 1em;
+	margin: 1em 0;
+	background-color: var(--background-modifier-error);
+	border: 1px solid var(--text-error);
+	border-radius: 8px;
+	color: var(--text-error);
+}
 
-*/
+.mermaid-error pre {
+	margin: 0.5em 0;
+	padding: 0.5em;
+	background-color: var(--background-primary);
+	border-radius: 4px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.mermaid-error details {
+	margin-top: 0.5em;
+}
+
+.mermaid-error summary {
+	cursor: pointer;
+	font-weight: bold;
+}
